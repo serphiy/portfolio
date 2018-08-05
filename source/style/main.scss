@@ -1,4 +1,4 @@
-@import "partial/_normalize.scss";
+@import "partial/_normalize";
 
 body, html {
   margin: 0;
@@ -7,6 +7,7 @@ body, html {
   height: 100%;
 }
 
-@import "partial/_lib.scss";
-@import "partial/_technologies.scss";
-@import "partial/_portfolio.scss";
+@import "partial/_lib";
+@import "partial/_preloader";
+@import "partial/_technologies";
+@import "partial/_portfolio";
