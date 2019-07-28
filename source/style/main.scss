@@ -1,13 +1,14 @@
 @import "partial/_normalize";
+@import "partial/_lib";
 
 body, html {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
 }
 
-@import "partial/_lib";
 @import "partial/_preloader";
 @import "partial/_technologies";
 @import "partial/_portfolio";
